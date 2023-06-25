@@ -1,0 +1,52 @@
+.tags{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgb(43, 92, 226);
+}
+
+
+.tags button{
+    color: #fff;
+    padding: 8px 46px;
+    border: navajowhite;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.tags button:hover{
+    background: #222222;
+    cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.image-card{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.image{
+    width: 100%;
+
+}
+
+.tag{
+    outline: none;
+    border: none;
+    color: #eee;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active{
+    font-weight: 900;
+    border-bottom: 2px solid #eee;
+}
